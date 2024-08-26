@@ -1,0 +1,43 @@
+@charset "UTF-8";
+    body {
+        font-family: Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, sans-serif;
+        font-size: 18px;
+        color: #333;
+        line-height: 1.9;
+        text-align: left;
+        -webkit-text-size-adjust: 100%;
+    }
+.happyTailsSalon {
+    font-family: "Sacramento", cursive;
+  font-weight: 400;
+  font-size: 60px;
+  font-style: normal;
+  color: red;
+}
+
+header.masthead .masthead-subheading {
+    color: bisque;
+    font-weight:bold;
+   -webkit-text-stroke: 1px #654;
+
+}
+h2 {
+    letter-spacing: 10px;
+    font-size: 30px;
+}
+
+@media (max-width: 767.98px) {
+.row-About {
+    --bs-gutter-x: 1.5rem;
+        --bs-gutter-y: 0;
+}
+.col-About {
+    margin-top: 12px;
+}
+ }
+.logo-happyTailsSalon {
+    color: #654;
+    font-family: "Sacramento", cursive;
+    width: 25%;
+    text-transform: capitalize;
+}
